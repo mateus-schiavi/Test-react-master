@@ -1,0 +1,42 @@
+.h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: rgb(172, 172, 172);
+    display: flex;
+    justify-content: center;
+}
+
+.h2 {
+    margin-left: 180px;
+    margin-right: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo {
+    border-radius: 100px;
+}
+
+.text {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.bold {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 225px;
+    margin-left: 225px;
+}
+
+.light {
+    display: flex;
+    color: rgb(172, 172, 172);
+    justify-content: space-between;
+    margin-right: 200px;
+    margin-left: 200px;
+}
