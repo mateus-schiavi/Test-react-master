@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap");
+
+* {
+  margin: 0;
+}
+:root {
+  --soft-red: hsl(7, 99%, 70%);
+  --verde-claro: rgb(144, 212, 197);
+  --letras-verdes: rgb(45, 116, 102);
+}
+
+.img-cont {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100%;
+  grid-gap: 0;
+  max-width: 100%;
+}
+
+.food-img {
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+  background-color: var(--verde-claro);
+}
+
+.bot-nav {
+  margin-top: 40px;
+}
+
+.bot-item:nth-child(2) {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+footer h3 {
+  color: var(--letras-verdes);
+  font-family: "Barlow", sans-serif;
+  font-size: 38px;
+  font-weight: 800;
+  padding-top: 45px;
+  padding-bottom: 35px;
+  /* font-family: 'Fraunces', serif; */
+}
+
+.bot-item {
+  color: var(--letras-verdes);
+  font-family: "Barlow", sans-serif;
+}
