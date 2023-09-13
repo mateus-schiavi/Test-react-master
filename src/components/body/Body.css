@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.general {
+    display: flex;
+    flex-direction: column;
+}
+
+.firstSection {
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+}
+
+.transfEgg {
+
+}
+
+.egg {
+    width: 100px;
+    height: 100px;
+    
+}
