@@ -1,0 +1,17 @@
+
+.titulo {
+    display: flex;
+    background-image: url('../../../public/desktop/image-header.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    height: 90vh; 
+  }
+  
+.lista{
+    display:flex;
+    list-style: none;
+    gap: 20px;
+
+
+}
